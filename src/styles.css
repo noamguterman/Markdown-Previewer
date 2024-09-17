@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+#editor {
+    margin: 0;
+    width: 50%;
+}
+
+#preview {
+    margin: 0;
+    width: 50%;
+    font-family: Karla, sans-serif;
+    overflow: auto;
+}
+
+img {
+    width: 100px;
+}
